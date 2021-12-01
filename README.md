@@ -1,1 +1,5 @@
-# snowpear-docs
+# build
+
+```shell
+gitbook build
+```
