@@ -1,5 +1,5 @@
 # build
 
 ```shell
-gitbook build
+docsify serve
 ```
