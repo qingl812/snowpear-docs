@@ -6,6 +6,7 @@
 ## ssh
 `apt install openssh-server`
 `cat /etc/ssh/sshd_config`
+`/root/.ssh/authorized_keys`
 
 ```conf
 Port 6001
@@ -32,4 +33,8 @@ npm --registry https://registry.npm.taobao.org install gitbook-cli -g
 # 权限
 # rwx = 4 + 2 + 1 = 7
 chmod 777 file  # (等价于  chmod u=rwx,g=rwx,o=rwx file 或  chmod a=rwx file)
+# 更改主机名
+hostnamectl set-hostname <newhostname>
+# 查看端口号
+netstat -tunlp |grep 1
 ```
