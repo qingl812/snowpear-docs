@@ -1,14 +1,10 @@
-# 下载
+# vue
 
-```shell
-npm install -g @vue/cli
-```
+- vue 下载 `npm install -g @vue/cli`
 
-# Element ui
+## Element ui
 
-```shell
-npm i element-ui -S
-```
+- Element ui 下载 `npm i element-ui -S`
 
 ```typescript
 // main.ts
@@ -55,16 +51,44 @@ router.beforeEach((to: Route, from: Route, next: NavigationGuardNext) => {
 });
 ```
 
-# 后端数据模拟 mockjs
+## 后端数据模拟 mockjs
 
 ```shell
 npm install mockjs
 npm install @types/mockjs
 ```
 
-# axios
+## axios
 
 ```shell
 npm install axios
 npm install @types/axios
+```
+
+# npm
+
+## 临时使用
+
+```shell
+npm --registry https://registry.npm.taobao.org install express
+```
+
+## 持久使用
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```
+
+## 验证
+
+```shell
+npm config ls
+npm config get registry
+npm info express
+```
+
+## 更新
+
+```shell
+npm install -g npm
 ```

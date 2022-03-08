@@ -1,4 +1,4 @@
-# git
+- 初始化用户名密码
 
 ```bash
 git config --global user.name "John Doe"

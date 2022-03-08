@@ -12,26 +12,29 @@
 </head>
 
 <body>
-	<div id="app"></div>
+	<div id="app">Loading ...</div>
 	<script>
 		window.$docsify = {
+			name: '雪梨文档',
 			el: '#app',
-			homepage: 'overview.md',
 			repo: 'https://github.com/qingl812/snowpear-docs',
+			coverpage: true, // 激活封面功能, 从 _coverpage.md 加载
+			homepage: 'zh-cn/README.md',
 			loadSidebar: true,
-			auto2top: true,
-			coverpage: true,
+			subMaxLevel: 2,
+			auto2top: true, // 切换页面时滚动到屏幕顶部
+			search: {
+				placeholder: {
+					'/': '搜索',
+				},
+				noData: {
+					'/': '找不到结果',
+				}
+			},
 		}
 	</script>
-	<!-- Docsify v4 -->
-	<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-	<style type="text/css">
-		body {
-			overflow-y: auto !important;
-			overflow-x: hidden !important;
-		}
-	</style>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>

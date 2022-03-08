@@ -1,19 +1,16 @@
 <!-- _sidebar.md -->
 
+- 编程
+  - [开发者文档](zh-cn/site_documents)
+  - [GitHub](zh-cn/site_github)
+  - [C++](zh-cn/c_plus_plus)
+  - [前端](zh-cn/web)
 - system
-  - [linux](/docs/system/linux.md")
-  - [windows](/docs/system/windows.md)
-  - [ubuntu](/docs/system/ubuntu.md)
-  - [centos](/docs/system/centos.md)
+  - [linux](zh-cn/linux)
+  - [windows](zh-cn/windows)
 - tools
-  - [git](/docs/tools/git.md)
-  - [docker](/docs/tools/docker.md")
-  - [jupyter](/docs/tools/jupyter.md")
-- ui
-  - [npm](/docs/ui/npm.md)
-  - [vue](/docs/ui/vue.md")
-- web
-  - [docsify](/docs/web/docsify.md)
-  - [frp](/docs/web/frp.md")
-  - [nginx](/docs/web/nginx.md")
-  - [nextcloud](/docs/web/nextcloud.md")
+  - [git](zh-cn/git)
+  - [docker](zh-cn/docker)
+  - [frp](zh-cn/frp)
+  - [nextcloud](zh-cn/nextcloud)
+  - [nginx](zh-cn/nginx)
