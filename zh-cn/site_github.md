@@ -12,7 +12,7 @@
 
 - [aria2](https://github.com/aria2/aria2) 超快速下载工具
 - [frp](https://github.com/fatedier/frp) 一种快速反向代理，可帮助您将 NAT 或防火墙后面的本地服务器暴露给 Internet。
-- [clash](https://github.com/Dreamacro/clash)
+- [clash](https://github.com/Dreamacro/clash) [clash config](http://clash.razord.top/#/proxies)
 - [clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
 - [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows)
 

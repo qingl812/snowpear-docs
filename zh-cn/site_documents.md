@@ -8,6 +8,7 @@
 - [Qt 5.15](https://doc.qt.io/qt-6/classes.html)
 - [web(mozilla)](https://developer.mozilla.org/zh-CN/docs/Web)
 - [sqlite C++](https://www.sqlite.org/cintro.html)
+- [gtest](https://google.github.io/googletest/)
 
 ### ui
 

@@ -14,3 +14,5 @@
   - [frp](zh-cn/frp)
   - [nextcloud](zh-cn/nextcloud)
   - [nginx](zh-cn/nginx)
+- 笔记
+  - [gtest](zh-cn/notes/gtest)
