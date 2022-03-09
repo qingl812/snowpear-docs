@@ -10,6 +10,8 @@
 - EXPECT_FALSE
 - EXPECT_TRUE
 
+- TEST_F
+
 ```C++
 // 在这个示例中，我们希望确保每个测试都在 0-5 秒。
 // 如果测试需要更长的时间来运行，我们认为它是失败。
@@ -48,8 +50,9 @@ INSTANTIATE_TYPED_TEST_SUITE_P(OnTheFlyAndPreCalculated,    // Instance name
 
 - gcov
 
-> 参考资料 https://qiita.com/imasaaki/items/0021d1ef14660184f396
-> [qingl812/gtest-cmake-lcov-example](https://github.com/qingl812/gtest-cmake-lcov-example)
+> [qingl812/gtest-cmake-lcov-example](https://github.com/qingl812/)
+
+> 参考资料 https://qiita.com/imasaaki/items/0021d1ef14660184f396gtest-cmake-lcov-example
 
 ```
 # gcov
