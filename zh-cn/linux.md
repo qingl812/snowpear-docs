@@ -92,3 +92,18 @@ network:
       nameservers:
           addresses: [192.168.1.1, 223.5.5.5]
 ```
+
+- 根据历史记录自动补全
+
+```shell
+vim ~/.bashrc
+
+# 添加：
+if [[ $- == *i* ]]
+then
+        bind '"\e[A": history-search-backward'
+        bind '"\e[B": history-search-forward'
+fi
+# 立即生效
+source ~/.bashrc
+```
